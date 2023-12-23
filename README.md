@@ -9,3 +9,7 @@ after finishing this project: https://thehelloworldprogram.com/python/python-gam
 
 The objective is to adapt a basic GUI for the rock paper scissors command line project. 
 I will start with just the command line version that i've already completed in VIM as my "main" & use Pycharm & github to develop the "feature" of a GUI using randint & Tkinter. 
+
+-Objectives
+learn github better & get a handle on basic development flow
+create a practicle project demonstrating my skills w/ a simple & somewhat novel & orignal idea
