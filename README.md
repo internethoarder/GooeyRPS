@@ -10,4 +10,4 @@ I will start with just the command line version that i've already completed in V
 
 ### Objectives
 - learn github better & get a handle on basic development flow  
-- create a project demonstrating my skills/comphrension of python w/ a simple & somewhat novel & orignal idea
+- create a project demonstrating my skills/comphrension of python
