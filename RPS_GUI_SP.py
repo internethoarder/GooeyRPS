@@ -47,11 +47,11 @@ def button_disable():
 def isrock():
     c_v = computer_value[str(random.randint(0, 2))]
     if c_v == "Rock":
-        match_result = messagebox.showinfo('Draw','Draw... Try again.')
+        match_result = messagebox.showinfo('Draw','Draw... Rock v Rock')
     elif c_v == "Scissor":
-        match_result = messagebox.showinfo('Victory', 'You won!')
+        match_result = messagebox.showinfo('Victory', 'You won! Rock Crushes Scissors!')
     else:
-        match_result =  messagebox.showinfo('Computer Wins','The Computer Won!')
+        match_result =  messagebox.showinfo('Computer Wins','The Computer Won! Paper covers Rock.')
     l1.config(text="Rock            ")
     l3.config(text=c_v)
     button_disable()
@@ -63,11 +63,11 @@ def isrock():
 def ispaper():
     c_v = computer_value[str(random.randint(0, 2))]
     if c_v == "Paper":
-        match_result = messagebox.showinfo('Draw','Draw... Try again.')
+        match_result = messagebox.showinfo('Draw','Draw... Paper v Paper')
     elif c_v == "Scissor":
-        match_result =  messagebox.showinfo('Computer Wins','The Computer Won!')
+        match_result =  messagebox.showinfo('Computer Wins','The Computer Won! Scissors Cut Paper!')
     else:
-        match_result = messagebox.showinfo('Victory', 'You won!')
+        match_result = messagebox.showinfo('Victory', 'You won! Paper covers rock!')
     l1.config(text="Paper           ")
     l3.config(text=c_v)
     button_disable()
@@ -79,11 +79,11 @@ def ispaper():
 def isscissor():
     c_v = computer_value[str(random.randint(0, 2))]
     if c_v == "Rock":
-        match_result =  messagebox.showinfo('Computer Wins','The Computer Won!')
+        match_result =  messagebox.showinfo('Computer Wins','The Computer Won! Rock SMASHES Scissors!')
     elif c_v == "Scissor":
-        match_result = messagebox.showinfo('Draw','Draw... Try again.')
+        match_result = messagebox.showinfo('Draw','Draw... Scissor V Scissor')
     else:
-        match_result = messagebox.showinfo('Victory','You won!')
+        match_result = messagebox.showinfo('Victory','You won! Scissors Cut Paper!')
     l1.config(text="Scissor         ")
     l3.config(text=c_v)
     button_disable()
