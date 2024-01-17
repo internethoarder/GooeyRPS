@@ -58,8 +58,6 @@ def isrock():
 
 
 # If player selected paper
-
-
 def ispaper():
     c_v = computer_value[str(random.randint(0, 2))]
     if c_v == "Paper":
@@ -74,8 +72,6 @@ def ispaper():
 
 
 # If player selected scissor
-
-
 def isscissor():
     c_v = computer_value[str(random.randint(0, 2))]
     if c_v == "Rock":
@@ -98,6 +94,7 @@ Label(root,
 frame = Frame(root)
 frame.pack()
 
+#create outcome / VS frame. this will update with results after the MessageBOX is closed
 l1 = Label(frame,
            text="Player              ",
            font=10)
@@ -112,11 +109,12 @@ l1.pack(side=LEFT)
 l2.pack(side=LEFT)
 l3.pack(pady=15)
 
+#create button frame
 frame1 = Frame(root)
 frame1.pack(pady=15)
 
 
-
+#create user selectable buttons
 b1 = Button(frame1, text="I Choose Rock!",
             font=10, width=15,
             command=isrock)
@@ -133,6 +131,7 @@ b1.pack(side=LEFT, padx=10)
 b2.pack(side=LEFT, padx=10)
 b3.pack(padx=10)
 
+#create reset button to reset & play again
 Button(root, text="Reset Game",
        font=10, fg="red",
        bg="black", command=reset_game).pack(pady=20)
