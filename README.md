@@ -20,7 +20,7 @@ I will start with just the command line version that i've already completed in V
 
 ### Two player in action
 ![RPS GUI 2P start](Assets/Demos/twoplayer.png)
-![RPS GUI 2P start](Assets/Demos/twoplayer_post_roll.png)
+![RPS GUI 2P start](Assets/Demos/twoplayer_post_roll2.png)
 
 ### Single Player in Action
 ![RPS GUI 2P start](Assets/Demos/singleplayer.png)
